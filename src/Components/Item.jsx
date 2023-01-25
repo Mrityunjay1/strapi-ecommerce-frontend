@@ -37,7 +37,7 @@ const Item = ({ item, width }) => {
           alt={item.name}
           width="300px"
           height="400px"
-          src={"https://picsum.photos/id/22/200/300"}
+          src={`https://seal-app-smm6t.ondigitalocean.app${url}`}
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}
         />
