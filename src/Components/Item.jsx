@@ -26,6 +26,7 @@ const Item = ({ item, width }) => {
       },
     },
   } = image;
+  console.log(image);
   return (
     <Box width={width}>
       <Box
@@ -37,7 +38,9 @@ const Item = ({ item, width }) => {
           alt={item.name}
           width="300px"
           height="400px"
-          src={`https://seal-app-smm6t.ondigitalocean.app${url}`}
+          src={
+            "https://images.pexels.com/photos/2646841/pexels-photo-2646841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
           onClick={() => navigate(`/item/${item.id}`)}
           style={{ cursor: "pointer" }}
         />
