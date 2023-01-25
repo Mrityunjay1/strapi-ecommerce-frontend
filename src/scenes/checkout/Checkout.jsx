@@ -136,7 +136,6 @@ const Checkout = () => {
         body: JSON.stringify(requestBody),
       }
     );
-    console.log(requestBody);
     const session = await response.json();
     await stripe.redirectToCheckout({
       sessionId: session.id,

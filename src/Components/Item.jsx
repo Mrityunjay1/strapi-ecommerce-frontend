@@ -17,16 +17,16 @@ const Item = ({ item, width }) => {
     palette: { neutral },
   } = useTheme();
   const { category, price, name, image } = item.attributes;
-  const {
-    data: {
-      attributes: {
-        formats: {
-          medium: { url },
-        },
-      },
-    },
-  } = image;
-  console.log(image);
+  // const {
+  //   data: {
+  //     attributes: {
+  //       formats: {
+  //         medium: { url },
+  //       },
+  //     },
+  //   },
+  // } = image;
+  // console.log(image);
   return (
     <Box width={width}>
       <Box
