@@ -79,7 +79,9 @@ const CartMenu = () => {
                         alt={item?.name}
                         width="120px"
                         height="164px"
-                        src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
+                        src={
+                          "https://images.pexels.com/photos/2646841/pexels-photo-2646841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        }
                       />
                     </Box>
                     <Box flex="1 1 60%">
